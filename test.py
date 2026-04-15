@@ -71,3 +71,16 @@ if __name__ == "__main__":
 #     words = extract_words(text)
 #     print(words)
 #     # ['美しい', '花', '愛する', '東京', '毎日', '散歩']
+
+
+
+# import MeCab
+
+# tagger = MeCab.Tagger()
+# text = "愛しながら運動している。"
+# node = tagger.parseToNode(text)
+
+# while node:
+#     if node.surface.strip():
+#         print(node.surface, "->", node.feature)
+#     node = node.next
